@@ -283,4 +283,19 @@ nav {
     }
 }
 
+@media (min-width: 1024px) {
+
+    .hero {
+
+        min-height: 70vh; /* ocupa quase a tela toda */
+
+
+    }
+
+
+}
+
+
+
+
 
