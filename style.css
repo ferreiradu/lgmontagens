@@ -557,10 +557,13 @@ footer {
     font-weight: bold;
     font-size: 1.1em;
     letter-spacing: -1px;
+    white-space: nowrap;
 }
 
 .google-logo span {
     font-family: Arial, sans-serif;
+    display: inline-block;
+    line-height: 1;
 }
 
 /* Cores oficiais Google */
@@ -715,6 +718,7 @@ footer {
     font-size: 13px;
     color: #94a3b8;
 }
+
 
 
 
