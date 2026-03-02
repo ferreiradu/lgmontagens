@@ -503,6 +503,74 @@ footer {
     opacity: 0.08;
 }
 
+.avaliacoes {
+    padding: 70px 20px;
+    background: linear-gradient(135deg,#023e66,#03588c);
+    text-align: center;
+    color: #fff;
+}
+
+.avaliacoes h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.avaliacao-box {
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(10px);
+    padding: 40px 25px;
+    border-radius: 16px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.estrelas {
+    font-size: 2.5rem;
+    color: #fbbf24;
+    letter-spacing: 5px;
+    margin-bottom: 15px;
+}
+
+.nota {
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+}
+
+.btn-avaliacoes {
+    display: inline-block;
+    padding: 14px 28px;
+    background: #25D366;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: .3s;
+}
+
+.btn-avaliacoes:hover {
+    background: #1ebe5d;
+    transform: translateY(-3px);
+}
+
+.google-logo {
+    font-weight: bold;
+    font-size: 1.1em;
+    letter-spacing: -1px;
+}
+
+.google-logo span {
+    font-family: Arial, sans-serif;
+}
+
+/* Cores oficiais Google */
+.g1 { color: #4285F4; } /* Azul */
+.g2 { color: #EA4335; } /* Vermelho */
+.g3 { color: #FBBC05; } /* Amarelo */
+.g4 { color: #4285F4; } /* Azul */
+.g5 { color: #34A853; } /* Verde */
+.g6 { color: #EA4335; } /* Vermelho */
+
 /* ================================= */
 /* WHATSAPP FLUTUANTE MODERNO */
 /* ================================= */
@@ -578,7 +646,7 @@ footer {
 .footer-logo {
     font-size: 26px;
     font-weight: 700;
-    color: var(--azul-escuro);
+    color: white;
     margin-bottom: 15px;
 }
 
@@ -591,7 +659,7 @@ footer {
 .footer p {
     font-size: 14px;
     line-height: 1.6;
-    color: #cbd5e1;
+    color: #c7e0ff;
 }
 
 .footer ul {
