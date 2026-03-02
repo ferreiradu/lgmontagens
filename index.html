@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="LG Montagens em Maringá PR. Montagem profissional de móveis residenciais e corporativos com garantia, rapidez e qualidade. Atendimento rápido via WhatsApp.">
+
+<meta name="keywords" content="
+montador de móveis em Maringá,
+montagem de móveis Maringá,
+montador profissional Maringá,
+montagem de guarda roupa Maringá,
+montador de móveis PR,
+LG Montagens
+">
+
+<meta name="author" content="LG Montagens">
+
+<!-- Google Indexação -->
+<meta name="robots" content="index, follow">
+
+<!-- Localização -->
+<meta name="geo.region" content="BR-PR">
+<meta name="geo.placename" content="Maringá">
+<meta name="geo.position" content="-23.4205;-51.9331">
+<meta name="ICBM" content="-23.4205, -51.9331">
+
+<!-- Open Graph (WhatsApp / Facebook / Instagram) -->
+<meta property="og:title" content="LG Montagens | Montagem Profissional em Maringá">
+<meta property="og:description" content="Montagem de móveis com garantia, qualidade e atendimento rápido em Maringá e região.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://lgmontagens.com">
+<meta property="og:image" content="https://lgmontagens.com/imagem/lgperfil.jpg">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="LG Montagens | Montador de Móveis em Maringá">
+<meta name="twitter:description" content="Especialistas em montagem de móveis residenciais e corporativos.">
+<meta name="twitter:image" content="https://lgmontagens.com/imagem/lgperfil.jpg">
+
+<title>LG Montagens | Montagem Profissional</title>
+
+<!-- CSS Local -->
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="media.css">
+<link rel="shortcut icon" href="imagem/lg.jpg" type="image/x-icon">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+<!-- Script para versionamento automático CSS -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll('link[rel="stylesheet"]').forEach(link => {
+        // ignora links externos (https://)
+        if (!link.href.startsWith(window.location.origin)) return;
+
+        // cria query string com timestamp do arquivo
+        fetch(link.getAttribute('href'), {method: 'HEAD'})
+            .then(res => {
+                const lastModified = new Date(res.headers.get('last-modified')).getTime();
+                link.setAttribute('href', link.getAttribute('href') + '?v=' + lastModified);
+            })
+            .catch(() => {
+                // fallback: se der erro, usa timestamp atual
+                link.setAttribute('href', link.getAttribute('href') + '?v=' + new Date().getTime());
+            });
+    });
+});
+</script>
+
+</head>
+<body>
+
+    <header>
+        <div class="container nav">
+            <div class="logo">
+                <a href="#">
+                    <img src="imagem/lg.jpg" alt="LG Montagens - Montador de Móveis em Maringá">
+                </a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav id="menu">
+                <a href="#sobre">Quem Somos</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#produtos">Produtos</a>
+                <a href="#cursos">Curso</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <div>
+                <h1>Montagem Profissional com Qualidade e Garantia</h1>
+                <p>Especialistas em montagem de móveis</p>
+                <a href="https://wa.me/5544999659372?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento%20para%20montagem%20de%20móveis." class="btn-whatsapp" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i> Falar no WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="section">
+        <div class="container sobre-moderno">
+            <div class="carrossel">
+                <div class="carrossel-track">
+                    <img src="imagem/lgperfil.jpg" alt="Montagem 0">
+                    <img src="imagem/lgfotos1.jpg" alt="Montagem 1">
+                    <img src="imagem/lgfotos2.jpg" alt="Montagem 2">
+                    <img src="imagem/lgfotos3.jpg" alt="Montagem 3">
+                </div>
+            </div>
+
+            <div class="sobre-texto">
+                <h2>Quem Somos</h2>
+                <p>
+                    Somos Lucas e Gabi, profissionais à frente da LG Montagens, especializados em montagem de móveis com qualidade, organização e atenção aos detalhes.
+                    Trabalhamos com responsabilidade, pontualidade e compromisso em cada serviço realizado. Nosso objetivo é garantir que cada cliente receba um atendimento ágil, seguro e com acabamento impecável.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="section azul">
+        <div class="container center">
+            <h2>Nossos Serviços</h2>
+            <div class="cards">
+                <div class="card">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <h3>Montagem de Móveis</h3>
+                    <p>Montagem profissional residencial e corporativa.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-truck"></i>
+                    <h3>Atendimento Rápido</h3>
+                    <p>Agilidade e compromisso com prazo.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h3>Garantia</h3>
+                    <p>Serviço com garantia e qualidade comprovada.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="produtos" class="section">
+        <div class="container center">
+            <h2>Produtos</h2>
+            <p>Confira nossa linha completa de produtos profissionais.</p>
+            <div class="produtos-grid">
+                <div class="produto-item">
+                    <img src="imagem/lgprodutos (1).jpg" alt="Ferramentas para Montagem">
+                    <h3>Ferramentas</h3>
+                </div>
+                <div class="produto-item">
+                    <img src="imagem/lgprodutos (2).jpg" alt="Acessórios para Montador">
+                    <h3>Acessórios</h3>
+                </div>
+                <div class="produto-item">
+                    <img src="imagem/lgprodutos (3).jpg" alt="Equipamentos Profissionais">
+                    <h3>Equipamentos</h3>
+                </div>
+            </div>
+            <a href="https://linktr.ee/gabicvaneti" target="_blank" class="btn-outline">Ver Produtos</a>
+        </div>
+    </section>
+
+    <section id="cursos" class="section azul">
+        <div class="container center">
+            <h2>Curso Montador</h2>
+            <p>Aprenda técnicas profissionais com nosso curso exclusivo.</p>
+            <div class="curso-capa">
+                <img src="imagem/lgcurso.jpg" alt="Curso Profissional de Montador">
+            </div>
+            <a href="https://pay.kiwify.com.br/UVmk0Rp" target="_blank" class="btn">Ver Curso</a>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container center">
+            <h2>Conheça Nosso Trabalho</h2>
+            <div class="video">
+                <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/Z1JEcov9Wys"
+                title="Vídeo LG Montagens"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="section azul">
+        <div class="container center">
+            <h2>Redes Sociais</h2>
+            <div class="redes">
+                <a href="https://wa.me/5544999659372?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento%20para%20montagem%20de%20móveis." target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/lg.montagens/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100076478643044" target="_blank" ><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.youtube.com/@lgmontagens1213" target="_blank" ><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h2 class="footer-logo">LG Montagens</h2>
+                <p>Especialistas em montagens de móveis corporativos, residenciais e soluções técnicas com qualidade, segurança e compromisso.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Links Rápidos</h3>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Quem Somos</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Serviços</h3>
+                <ul>
+                    <li>Montagem de Móveis</li>
+                    <li>Montagem Corporativa</li>
+                    <li>Reparos em Móveis</li>
+                    <li>Manutenção Técnica</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contato</h3>
+                <p>📍 Maringá - PR</p>
+                <p>📞 (44) 99965-9372</p>
+                <p>✉️ lgmontagens@gmail.com</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://linktr.ee/lgmontagens?utm_source=linktree_profile_share&ltsid=2c2317e4-34f7-4b3b-9785-e44bc9252bdb&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGn6LxyfYh5xlgqnyqoh66paJmSTX2et7fBKZ5nJjIMzezmYqZHtWAUtcV7sPk_aem_bO1EW5acYVdyjIdqAL99KA" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 LG Montagens - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/5544999659372?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento%20para%20montagem%20de%20móveis." class="whatsapp-float" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+<script>
+    const toggle = document.getElementById("menu-toggle");
+    const menu = document.getElementById("menu");
+    
+    /* CLICK MOBILE */
+    toggle.addEventListener("click", (e) => {
+        e.stopPropagation();
+        menu.classList.toggle("active");
+        toggle.classList.toggle("active");
+    });
+    
+    /* HOVER DESKTOP */
+    toggle.addEventListener("mouseenter", () => {
+        if (window.innerWidth > 768) {
+            menu.classList.add("active");
+            toggle.classList.add("active");
+        }
+    });
+    
+    menu.addEventListener("mouseenter", () => {
+        if (window.innerWidth > 768) {
+            menu.classList.add("active");
+            toggle.classList.add("active");
+        }
+    });
+    
+    /* FECHAR AO SAIR */
+    menu.addEventListener("mouseleave", () => {
+        menu.classList.remove("active");
+        toggle.classList.remove("active");
+    });
+    
+    /* CLICK FORA */
+    document.addEventListener("click", (e) => {
+        if (!menu.contains(e.target) && !toggle.contains(e.target)) {
+            menu.classList.remove("active");
+            toggle.classList.remove("active");
+        }
+    });
+    
+    /* SCROLL */
+    window.addEventListener("scroll", () => {
+        menu.classList.remove("active");
+        toggle.classList.remove("active");
+    });
+</script>
+
+</body>
+</html>
