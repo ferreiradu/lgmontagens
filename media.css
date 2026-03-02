@@ -281,6 +281,41 @@ nav {
         grid-template-columns: repeat(2, 1fr);
         text-align: left;
     }
+
+    .avaliacoes {
+        padding: 25px 15px;
+    }
+
+    .avaliacoes h2 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .card-avaliacao {
+        padding: 20px 15px;
+        border-radius: 14px;
+    }
+
+    .estrelas {
+        font-size: 1.4rem;
+    }
+
+    .nota {
+        font-size: 0.95rem;
+        line-height: 1.4;
+        text-align: center;
+    }
+
+    .btn-google {
+        width: 100%;
+        justify-content: center;
+        font-size: 0.95rem;
+        padding: 12px;
+    }
+
+    .google-logo {
+        font-size: 1rem;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -294,8 +329,6 @@ nav {
 
 
 }
-
-
 
 
 
